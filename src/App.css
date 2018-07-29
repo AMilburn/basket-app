@@ -1,0 +1,38 @@
+.basketApp {
+  background: #f5f7f9;
+  font-family: Helvetica;
+  text-transform: uppercase;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  color: #2a2f35;
+}
+h1 {
+  text-align: center;
+  background: #2A2F35;
+  color: white;
+  margin: 0;
+  padding: 30px;
+  letter-spacing: 4px;
+}
+.basketApp__container {
+  margin: 30px auto;
+  width: 70%;
+  max-width: 700px;
+}
+.basketApp__itemContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 2;
+}
+.basketApp__total {
+  margin: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+.basketApp__total span {
+  font-weight: bold;
+  margin-left: 10px;
+}
